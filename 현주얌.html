@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>htTo://hyeon joo</title>
+  </head>
+  <body bgcolor="black">
+    <font style="color:white">
+      <center>
+    <h6>To. 고현주</h6>
+    </center>
+      </font>
+
+    <center>
+      <video id="player" autoplay loop muted height="600">
+  <source src="Comp 1.mp4" />
+</video>
+
+<p onclick="toggleControls();">Toggle</p>
+
+<script>
+var video = document.getElementById("Comp 1.mp4");
+
+function toggleControls() {
+  if (video.hasAttribute("controls")) {
+     video.removeAttribute("controls")
+  } else {
+     video.setAttribute("controls","controls")
+  }
+}
+</script>
+<button id="unmutePlayerButton" onclick="unmute()">/unmute</button>
+
+          <script>
+            function unmute() {
+              const player = document.getElementById("player");
+              player.muted = false;
+            }
+          </script>
+
+      <br>
+    <font style="color:white">
+    <br><br><br>
+    <h3>
+    메리크리스마스 현주^0^</h3><br>참고로 이 피자박스..? 오르골은 닫을 수 없어^v^
+    </font>
+    </center>
+  </body>
+</html>
